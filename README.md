@@ -1,2 +1,2 @@
 # Wsz.Oqt.WszTheme
-Oqtane Theme für Wettkampf-Software Zimmer
+Oqtane Theme für Werner Zimmer
