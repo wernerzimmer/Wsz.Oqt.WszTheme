@@ -14,10 +14,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.1" />
+    <PackageReference Include="Oqtane.Client" Version="3.0.2" />
+    <PackageReference Include="Oqtane.Shared" Version="3.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="powershell.exe -file $(ProjectDir)PostBuildAction.ps1 $(ProjectDir) $(ProjectName) $(TargetDir) $(TargetName)" />
+  </Target>
 
 </Project>

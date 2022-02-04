@@ -1,0 +1,19 @@
+﻿/* Oqtane Styles */
+/* Wettkampf-Software Design */
+
+/* Inhalt Gesamt */
+body {
+    padding-top: 5rem;
+}
+
+/* Buttons Menüleiste */
+.btn-primary {
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+
+/* Buttons Menüleiste hover */
+.btn-primary:hover {
+    background-color: grey;
+    border-color: grey;
+}
