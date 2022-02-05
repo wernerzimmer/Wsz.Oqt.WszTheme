@@ -1,0 +1,17 @@
+﻿@namespace Wsz.Oqt.WszTheme
+@inherits ContainerBase
+
+<div class="row px-0">
+    <div class="d-flex flex-nowrap">
+        <ModuleActions />
+    </div>
+</div>
+<div class="row px-0">
+    <div class="container-fluid">
+        <ModuleInstance />
+    </div>
+</div>
+
+@code {
+    public override string Name => "Container Spacing 0";
+}
