@@ -9,7 +9,7 @@ $targetName = $args[3]
 Write-Host "targetName: " $targetName
 # Zielordner
 $ThemeDir = "wwwroot\Themes\"
-$releaseName = "oqtane.framework-3.0.2"
+$releaseName = "oqtane.framework-3.4.3"
 $releaseProject = "Oqtane.Server"
 $releaseProjectDir = $projectDir.Replace($projectName + "\", "") + $releaseName + "\" + $releaseProject
 Write-Host "releaseProjectDir: " $releaseProjectDir
