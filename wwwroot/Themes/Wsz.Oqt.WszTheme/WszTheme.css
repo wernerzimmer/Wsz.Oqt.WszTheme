@@ -7,13 +7,13 @@ body {
 }
 
 /* Buttons Menüleiste */
-.btn-primary {
-    background-color: darkgrey;
-    border-color: darkgrey;
+.controls-group .btn-primary {
+  background-color: darkgrey;
+  border-color: darkgrey;
 }
 
 /* Buttons Menüleiste hover */
-.btn-primary:hover {
-    background-color: grey;
-    border-color: grey;
+.controls-group .btn-primary:hover {
+  background-color: grey;
+  border-color: grey;
 }
