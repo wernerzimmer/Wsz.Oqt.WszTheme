@@ -5,7 +5,24 @@
     <nav class="navbar navbar-light bg-light fixed-top">
         <Logo /><Menu Orientation="Horizontal" />
         <div class="controls ms-auto">
-            <div class="controls-group"><UserProfile /> <Login /> <ControlPanel ButtonClass="btn-outline-dark" /></div>
+            <div class="controls-group d-flex">
+                <div class="dropdown me-1">
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="oi oi-person"></span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="btnUserControls">
+                        <div class="dropdown-item">
+                            <UserProfile />
+                        </div>
+                        <div class="dropdown-item">
+                            <Login />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <ControlPanel />
+                </div>
+            </div>
         </div>
     </nav>
     <div class="content">
