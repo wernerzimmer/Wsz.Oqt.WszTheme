@@ -8,7 +8,7 @@ namespace Wsz.Oqt.WszTheme
         public Theme Theme => new Theme
         {
             Name = "Wettkampf-Software Theme",
-            Version = "1.0.1",
+            Version = "1.0.2",
             PackageName = "Wsz.Oqt.WszTheme",
             Owner = "Wettkampf-Software Zimmer",
             Url = "https://www.wettkampf-software-zimmer.de/",
