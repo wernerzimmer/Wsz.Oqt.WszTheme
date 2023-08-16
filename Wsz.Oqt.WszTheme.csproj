@@ -1,10 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>$(MSBuildProjectName).Oqtane.Client</AssemblyName>
+    <FileVersion>3.2023.0816.1721</FileVersion>
+    <Copyright>2023/Werner Zimmer</Copyright>
   </PropertyGroup>
 
 

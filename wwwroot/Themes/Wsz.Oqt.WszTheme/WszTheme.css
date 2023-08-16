@@ -17,3 +17,12 @@ body {
   background-color: grey;
   border-color: grey;
 }
+
+/* Hyperlinks */
+a {
+  color: #ef8b2e;
+}
+
+a:hover {
+  color: #fdc652;
+}
