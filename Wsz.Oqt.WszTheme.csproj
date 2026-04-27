@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>$(MSBuildProjectName).Oqtane.Client</AssemblyName>
-    <FileVersion>5.2025.0228.1254</FileVersion>
+    <FileVersion>1012.2026.0427.1437</FileVersion>
     <Copyright>2023/Werner Zimmer</Copyright>
-    <AssemblyVersion>5.2025.0228.1254</AssemblyVersion>
+    <AssemblyVersion>1012.2026.0427.1406</AssemblyVersion>
   </PropertyGroup>
 
 
@@ -16,9 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.2" />
-    <PackageReference Include="Oqtane.Client" Version="6.1.0" />
-    <PackageReference Include="Oqtane.Shared" Version="6.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="10.0.7" />
+    <PackageReference Include="Oqtane.Client" Version="10.1.2" />
+    <PackageReference Include="Oqtane.Shared" Version="10.1.2" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
