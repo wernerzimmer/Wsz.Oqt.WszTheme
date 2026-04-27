@@ -9,7 +9,7 @@ $targetName = $args[3]
 Write-Host "targetName: " $targetName
 # Zielordner
 $ThemeDir = "wwwroot\Themes\"
-$releaseName = "oqtane.framework-6.1.0"
+$releaseName = "oqtane.framework-10.1.2"
 $releaseProject = "Oqtane.Server"
 $releaseProjectDir = $projectDir.Replace($projectName + "\", "") + $releaseName + "\" + $releaseProject
 Write-Host "releaseProjectDir: " $releaseProjectDir
@@ -17,3 +17,5 @@ Write-Host "releaseProjectDir: " $releaseProjectDir
 Copy-Item ($targetDir + $targetName + ".dll") -Destination ($releaseProjectDir + "\" + $targetDir.Replace($projectDir, ""))
 Copy-Item ($targetDir + $targetName + ".pdb") -Destination ($releaseProjectDir + "\" + $targetDir.Replace($projectDir, ""))
 Copy-Item ($projectDir + $ThemeDir + $projectName) -Force -Recurse -Destination ($releaseProjectDir + "\" + $ThemeDir)
+# PostBuildAction
+# powershell.exe -file $(ProjectDir)PostBuildAction.ps1 $(ProjectDir) $(ProjectName) $(TargetDir) $(TargetName)
